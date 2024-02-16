@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyC-6ne-HF73fo3ylxvdchIad9T9dBL9iao</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1069888959667</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>dev.mmuhamadiev.kinopoisk.search.kinopoiskSearch</string>
+	<key>PROJECT_ID</key>
+	<string>cinematica-flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cinematica-flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1069888959667:ios:f491971382f9f30e14ecc6</string>
+</dict>
+</plist>

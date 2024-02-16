@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1069888959667",
+    "project_id": "cinematica-flutter",
+    "storage_bucket": "cinematica-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069888959667:android:1c8ac586034f152514ecc6",
+        "android_client_info": {
+          "package_name": "dev.mmuhamadiev.kinopoisk.search.kinopoisk_search"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHACZz8O9uE68dxv_ChTzM1euWehO4fh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
