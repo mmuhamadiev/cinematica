@@ -198,24 +198,16 @@ class MovieModel {
 class Fees {
   Fees({
     required this.world,
-    required this.russia,
-    required this.usa,
   });
   late final World world;
-  late final Russia russia;
-  late final Usa usa;
 
   Fees.fromJson(Map<String, dynamic> json){
     world = World.fromJson(json['world']);
-    russia = Russia.fromJson(json['russia']);
-    usa = Usa.fromJson(json['usa']);
   }
 
   Map<String, dynamic> toJson() {
     final _data = <String, dynamic>{};
     _data['world'] = world.toJson();
-    _data['russia'] = russia.toJson();
-    _data['usa'] = usa.toJson();
     return _data;
   }
 }
@@ -676,7 +668,6 @@ class SimilarMovies {
     required this.id,
     required this.name,
     this.enName,
-    required this.alternativeName,
     required this.type,
     required this.poster,
     required this.year,
@@ -685,7 +676,6 @@ class SimilarMovies {
   late final int id;
   late final String name;
   late final Null enName;
-  late final String alternativeName;
   late final String type;
   late final Poster poster;
   late final int year;
@@ -695,7 +685,6 @@ class SimilarMovies {
     id = json['id'];
     name = json['name'];
     enName = null;
-    alternativeName = json['alternativeName'];
     type = json['type'];
     poster = Poster.fromJson(json['poster']);
     year = json['year'];
@@ -707,7 +696,6 @@ class SimilarMovies {
     _data['id'] = id;
     _data['name'] = name;
     _data['enName'] = enName;
-    _data['alternativeName'] = alternativeName;
     _data['type'] = type;
     _data['poster'] = poster.toJson();
     _data['year'] = year;
